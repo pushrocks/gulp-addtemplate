@@ -1,10 +1,16 @@
 language: node_js
-before_install: deploy:
-  - nvm install stable provider: npm
-  - node -v email: npm@smart-coordination.com
-  - npm -v api_key:
-  - npm install -g gulp secure: 
-IoXb8k62X9tdpZk2PJYuuypy2O5ka+4jKt+DAlVcRSgtGfF4RJsrB835Pa4l/iGe/1ZwaW43A3SyfqWRPCZstW7sescmW76qbFISqbGP43vpsEMNxmmQdIZLW8BYF/IaN29unF4K0lU9ytR5cCMPnt/IrCYgv1iEQ1hGTSb/i4fV+MIyIVSTBZhnRJOVelS4PIE3xkL101KL2nkv2ulHuOtPsd73J5BdHp32+O7MneYdmpcjlRE4bQYG7mwTHxmnkyt6X9D3gdmZypl3dSaOY/T9O2Jl2x20bDFYYnFY88kOqQE9gwR359XJM95h0dfip9ung4a3FLW7v4lf2U65HqbHn6AksuTjYh7LwDdBfguv3DajA1A6lfesspReG2/Dnl9ui1usbhDVTujWoPzEsz3lsB++fviOHX0N8fiLmI0SVCoDCNF3jAXKncDB7vpEsF9xcAACPKQMe48udmEnKczWNzOj4l0fBnBjtRG22KKk5txTwCSh9PZa+qEwCPVkctJfc2PsX5BdHFJDzKbdMlbOMKe4FA7SnAD1dc2UaGKSb9ZdaZuxnUn1umquVgPRae7bGlr6PM2W48rZ2Zuo/3Nlp9Wcw0G9inoqAG3vkpxRryXjl1lTSinlJFT/ePf9b/z2H7VYTZqrWmV5opuJ7z3eheDlnxEAL2VGl7N4yn8=
-  - npm install gulp on:
-  - npm install gulp-typescript    tags: true
+before_install:
+  - nvm install stable
+  - node -v
+  - npm -v
+  - npm install -g gulp
+  - npm install gulp
+  - npm install gulp-typescript
+deploy:
+  provider: npm
+  email: npm@smart-coordination.com
+  api_key:
+    secure: BJs76njH4Zgh18k6dNWhKTMCKD0jVe8AgkvU39gdRUq9cQxaSp7d+4Xk8r+hCUB+gSHVS4u7Y/TPgncOoYkoDmcy4ZlenvX1laUSSkFz/HBx/foJlUo9jaPVZeKxq/F/pWq/PeDcz42Xle48ORto85nfIxdKCsWt/S1qKhCI64vg+lU7+CWbeFjJmsoKC9PJWRlFzyHNZFRDxBpB9WmkvCx+Z1kM40plba2k0pesh+u0J28+k8n29GkKHxcOtUMLIrvYTvWiuqAx94oYOo59iZ6q8puDMhGR/6AJwbxB8u+ibZRTEnmDUu+cUpsJR320oQeEIMI9xRX3eHbMnnPjv8Jx/HcJpeaFvbI7KUT1NuzsdwGAchNhJ2ewZFxbuzwEMFhZ1B46d1WI42fO9l7sGG5LkPpt7uqc31r2EEf5zeqDjWwRGn6CSD+cE759aHKkv7PPKhuBhFPFJ6tfAX/xWR0d4MKnFELv1iETuqItzTou9E/Wir6BBFERUvun3om+n6ykjSmdULuPiSSBaz8p9UFiOX8VgZNM8j+kXJCyfXfCGeHdYoJXrvH7IKSNodTBOvMnNcpZfu8/EIGKJ4J0/S5IMihiYQqbL3kmrK5GxTsHFIEGenaGm5/+aDi5jqJUfBfd3beo0JRyBaj7CCsp72jl8bKekAGea/zXnOitYI8=
+  on:
+    tags: true
     repo: pushrocks/gulp-addtemplate
