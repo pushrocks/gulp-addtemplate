@@ -4,7 +4,7 @@
   "description": "adds a template to the file object to be used by other plugins thereafter in the pipeline",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"It works so far.\""
+    "test": "cd ts/compile && gulp"
   },
   "repository": {
     "type": "git",
